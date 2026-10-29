@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfólio de Ana Suellen, estudante de Tecnologia da Informação.">
+    <title>Ana Suellen | Meu Portfólio 🎀</title>
+
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js" defer></script>
+</head>
+
+<body id="topo">
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <a href="#inicio" class="logo" aria-label="Ana Suellen, página inicial">
+            Ana Suellen <span>🎀</span>
+        </a>
+
+        <button class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menu de navegação"
+                aria-controls="menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="menu" id="menu" aria-label="Navegação principal">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <button class="tema-toggle" id="tema-toggle"
+                aria-label="Ativar modo escuro">
+            🌙
+        </button>
+    </header>
+
+    <main>
+
+        <!-- Início -->
+        <section class="inicio secao" id="inicio">
+            <div class="inicio-texto">
+                <span class="etiqueta">୨୧ Seja bem-vindo(a)! ୨୧</span>
+
+                <h1>Olá, me chamo <span>Ana Suellen!</span></h1>
+
+                <h2 id="saudacao">Que bom ter você por aqui! ♡</h2>
+
+                <p>
+                    Sou estudante de Tecnologia da Informação, apaixonada
+                    por aprender coisas novas, criar projetos e descobrir
+                    como a tecnologia pode transformar vidas.
+                </p>
+
+                <p class="frase-fofa">
+                    “Pequenos passos também nos levam a grandes sonhos.” 🎀
+                </p>
+
+                <a href="#projetos" class="botao">
+                    Conheça meus projetos ♡
+                </a>
+            </div>
+
+            <div class="inicio-imagem">
+                <div class="moldura">
+                    <img src="static/suellen.png"
+                         alt="Avatar de Ana Suellen"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+
+                    <div class="avatar-fallback" aria-label="Decoração com laço">
+                        🎀
+                        <span>♡</span>
+                    </div>
+                </div>
+                <span class="decoracao decoracao-1">♡</span>
+                <span class="decoracao decoracao-2">🎀</span>
+            </div>
+        </section>
+
+        <!-- Sobre mim -->
+        <section class="secao sobre" id="sobre">
+            <div class="titulo-secao">
+                <span>um pouquinho de mim ♡</span>
+                <h2>Sobre mim 🎀</h2>
+            </div>
+
+            <div class="sobre-card">
+                <p>
+                    Oi! Eu sou a <strong>Ana Suellen</strong>, estudante do
+                    Ensino Médio integrado ao Mediotec Senac, no curso de
+                    Tecnologia da Informação.
+                </p>
+
+                <p>
+                    Durante minha formação, venho aprendendo sobre programação,
+                    desenvolvimento web e criação de projetos. Gosto de
+                    transformar ideias em páginas e soluções que possam
+                    ajudar as pessoas.
+                </p>
+
+                <p>
+                    Também amo a área da saúde e acredito que tanto ela quanto
+                    a tecnologia têm o poder de mudar vidas. No futuro, quero
+                    continuar aprendendo, explorar novas possibilidades e
+                    desenvolver projetos com criatividade, dedicação e carinho.
+                </p>
+
+                <div class="sobre-detalhes">
+                    <span>🎀 Criatividade</span>
+                    <span>💻 Tecnologia</span>
+                    <span>♡ Aprendizado</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="secao habilidades" id="habilidades">
+            <div class="titulo-secao">
+                <span>aprendendo um pouquinho a cada dia ♡</span>
+                <h2>Minhas habilidades</h2>
+            </div>
+
+            <div class="habilidades-grid">
+                <article class="habilidade-card">
+                    <span class="icone">🌷</span>
+                    <h3>HTML</h3>
+                    <p>Estruturação de páginas web.</p>
+                    <span class="nivel">Conhecimentos básicos</span>
+                </article>
+
+                <article class="habilidade-card">
+                    <span class="icone">🎨</span>
+                    <h3>CSS</h3>
+                    <p>Estilização, cores e layouts responsivos.</p>
+                    <span class="nivel">Conhecimentos básicos</span>
+                </article>
+
+                <article class="habilidade-card">
+                    <span class="icone">✨</span>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e funcionalidades para sites.</p>
+                    <span class="nivel">Em aprendizado</span>
+                </article>
+
+                <article class="habilidade-card">
+                    <span class="icone">🗄️</span>
+                    <h3>SQL</h3>
+                    <p>Consultas e organização de bancos de dados.</p>
+                    <span class="nivel">Em aprendizado</span>
+                </article>
+
+                <article class="habilidade-card">
+                    <span class="icone">🐍</span>
+                    <h3>Python</h3>
+                    <p>Lógica de programação e primeiros códigos.</p>
+                    <span class="nivel">Em aprendizado</span>
+                </article>
+
+                <article class="habilidade-card">
+                    <span class="icone">🖥️</span>
+                    <h3>GitHub</h3>
+                    <p>Organização e publicação de projetos.</p>
+                    <span class="nivel">Conhecimentos básicos</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="secao projetos" id="projetos">
+            <div class="titulo-secao">
+                <span>feito com dedicação e muito carinho ♡</span>
+                <h2>Meus projetos</h2>
+                <p>Alguns dos projetos que desenvolvi durante o curso.</p>
+            </div>
+
+            <div class="projetos-grid">
+
+                <article class="projeto-card">
+                    <div class="projeto-topo">🎀 Projeto 01</div>
+                    <div class="projeto-conteudo">
+                        <h3>Conecta</h3>
+                        <p>
+                            Projeto desenvolvido durante minha formação
+                            em TI, reunindo ideias e conhecimentos
+                            trabalhados no curso.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>GitHub</span>
+                        </div>
+                        <a href="https://github.com/suellen255/conecta"
+                           target="_blank" rel="noopener noreferrer"
+                           class="botao botao-projeto">
+                            Ver no GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projeto-card">
+                    <div class="projeto-topo">🍓 Projeto 02</div>
+                    <div class="projeto-conteudo">
+                        <h3>FoodExpress</h3>
+                        <p>
+                            Projeto relacionado ao universo de pedidos
+                            de comida, desenvolvido como atividade
+                            prática do curso.
+                        </p>
+                        <div class="tags">
+                            <span>Desenvolvimento web</span>
+                            <span>GitHub</span>
+                        </div>
+                        <a href="https://github.com/suellen255/UC31---FoodExpress"
+                           target="_blank" rel="noopener noreferrer"
+                           class="botao botao-projeto">
+                            Ver no GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projeto-card">
+                    <div class="projeto-topo">🌸 Projeto 03</div>
+                    <div class="projeto-conteudo">
+                        <h3>Projeto Anos 50</h3>
+                        <p>
+                            Projeto com temática retrô, criado para
+                            colocar em prática os conhecimentos de
+                            desenvolvimento de páginas web.
+                        </p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>GitHub</span>
+                        </div>
+                        <a href="https://github.com/suellen255/projetoanos50_oficial"
+                           target="_blank" rel="noopener noreferrer"
+                           class="botao botao-projeto">
+                            Ver no GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="secao contato" id="contato">
+            <div class="titulo-secao">
+                <span>vamos conversar? ♡</span>
+                <h2>Entre em contato 💌</h2>
+                <p>Preencha os campos abaixo para deixar uma mensagem.</p>
+            </div>
+
+            <form class="formulario" id="formulario">
+                <div class="campo">
+                    <label for="nome">Seu nome</label>
+                    <input type="text" id="nome" name="nome"
+                           placeholder="Digite seu nome"
+                           autocomplete="name" required maxlength="100">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Seu e-mail</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="voce@exemplo.com"
+                           autocomplete="email" required maxlength="254">
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Sua mensagem</label>
+                    <textarea id="mensagem" name="mensagem"
+                              placeholder="Escreva sua mensagem aqui..."
+                              rows="5" required maxlength="2000"></textarea>
+                </div>
+
+                <div class="consentimento">
+                    <input type="checkbox" id="consentimento"
+                           name="consentimento" required>
+                    <label for="consentimento">
+                        Concordo em fornecer esses dados para o contato
+                        solicitado e entendo que eles serão usados apenas
+                        para essa finalidade.
+                    </label>
+                </div>
+
+                <button type="submit" class="botao">
+                    Enviar mensagem ♡
+                </button>
+
+                <p id="status-formulario" class="status-formulario"
+                   role="status" aria-live="polite"></p>
+            </form>
+
+            <p class="aviso-privacidade">
+                Este formulário é demonstrativo. Nenhum dado será enviado
+                ou armazenado por este site.
+            </p>
+
+            <div class="github-contato">
+                <span>Você também pode me encontrar por aqui:</span>
+                <a href="https://github.com/suellen255"
+                   target="_blank" rel="noopener noreferrer">
+                    Meu GitHub ↗
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>Feito com ♡ por Ana Suellen 🎀</p>
+        <p>© <span id="ano"></span> — Todos os direitos reservados.</p>
+        <a href="#topo" class="voltar-topo">Voltar ao topo ↑</a>
+    </footer>
+
+</body>
+</html>
